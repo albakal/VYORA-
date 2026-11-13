@@ -1,0 +1,6 @@
+{
+  "name": "VYORA",
+  "description": "Short-video social network with CameraX recording, Media3 feed, real-time messaging, Agora live streaming, creator wallet, and moderation dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

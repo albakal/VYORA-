@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">VYORA</string>
+
+    <!-- Auth -->
+    <string name="auth_tagline">Create. Stream. Shine in Motion.</string>
+    <string name="auth_subtitle">Real-time short videos, interactive live rooms, instant chat, and creator rewards.</string>
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="auth_signing_in">Signing in…</string>
+    <string name="auth_cancelled">Sign-in was cancelled. Tap to try again.</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_home">Home</string>
+    <string name="nav_friends">Friends</string>
+    <string name="nav_create">Create</string>
+    <string name="nav_messages">Messages</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Feed & Discovery -->
+    <string name="tab_following">Following</string>
+    <string name="tab_for_you">For You</string>
+    <string name="tab_live">LIVE</string>
+    <string name="search_hint">Search videos, creators, #hashtags…</string>
+    <string name="discover_title">Discover &amp; Trends</string>
+    <string name="trending_videos">Most Viewed</string>
+    <string name="latest_videos">Newest Videos</string>
+    <string name="trending_hashtags">Trending Hashtags</string>
+    <string name="empty_feed_title">No videos yet</string>
+    <string name="empty_feed_subtitle">Be the first creator! Tap + to record or upload a video.</string>
+    <string name="follow">Follow</string>
+    <string name="following_label">Following</string>
+    <string name="requested_label">Requested</string>
+    <string name="views_count">%1$s views</string>
+    <string name="comments_title">Comments (%1$d)</string>
+    <string name="comment_hint">Add a comment…</string>
+    <string name="send">Send</string>
+    <string name="share_video">Share Video</string>
+    <string name="report">Report</string>
+    <string name="block_user">Block User</string>
+    <string name="unblock_user">Unblock User</string>
+
+    <!-- Create / Studio -->
+    <string name="studio_choose_mode">Create on VYORA</string>
+    <string name="studio_record_video">Record Video</string>
+    <string name="studio_pick_gallery">Upload from Gallery</string>
+    <string name="studio_go_live">Go LIVE</string>
+    <string name="studio_caption_hint">Write a caption and #hashtags…</string>
+    <string name="studio_select_sound">Select Sound</string>
+    <string name="studio_original_sound">Original Sound</string>
+    <string name="studio_pick_cover">Pick Cover Image</string>
+    <string name="studio_publish">Publish Video</string>
+    <string name="studio_uploading">Uploading %1$d%%…</string>
+    <string name="studio_duration_15">15s</string>
+    <string name="studio_duration_60">60s</string>
+    <string name="studio_duration_180">3m</string>
+    <string name="studio_flip_camera">Flip Camera</string>
+    <string name="studio_pause_rec">Pause</string>
+    <string name="studio_resume_rec">Resume</string>
+    <string name="studio_stop_rec">Finish</string>
+    <string name="permission_camera_audio">Camera &amp; Microphone permissions are required to record videos or go live.</string>
+    <string name="grant_permissions">Grant Permissions</string>
+
+    <!-- Friends & Social -->
+    <string name="friends_feed">Friends Feed</string>
+    <string name="suggestions_title">Suggested Creators</string>
+    <string name="follow_requests_title">Follow Requests</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Decline</string>
+    <string name="followers_label">Followers</string>
+    <string name="likes_label">Likes</string>
+
+    <!-- Messages -->
+    <string name="messages_title">Messages</string>
+    <string name="new_chat">New Chat</string>
+    <string name="type_message">Type a message…</string>
+    <string name="voice_note_hold">Voice Note</string>
+    <string name="recording_voice">Recording audio… Tap to send</string>
+    <string name="delete_chat">Delete Conversation</string>
+    <string name="no_messages_yet">No conversations yet. Start chatting with friends!</string>
+
+    <!-- Live -->
+    <string name="live_title_hint">Live stream title…</string>
+    <string name="start_live_btn">Start Live Broadcast</string>
+    <string name="end_live_btn">End Broadcast</string>
+    <string name="live_viewers">%1$d watching</string>
+    <string name="agora_missing_warning">Deploy Firebase Cloud Functions and configure AGORA_APP_ID &amp; AGORA_APP_CERTIFICATE in Firebase Secret Manager for live video streaming. Live chat &amp; stats are active.</string>
+    <string name="no_live_streams">No active live streams right now.</string>
+
+    <!-- Profile, Wallet & Admin -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="wallet_earnings">Wallet &amp; Points</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="mark_all_read">Mark all read</string>
+    <string name="sounds_library">Sounds Library</string>
+    <string name="add_sound">Add Licensed Sound</string>
+    <string name="settings_title">Settings &amp; Privacy</string>
+    <string name="private_account">Private Account</string>
+    <string name="language_label">Language</string>
+    <string name="theme_label">Appearance</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_system">System</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="tab_videos">Videos</string>
+    <string name="tab_saved">Saved</string>
+    <string name="tab_liked">Liked</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="delete_video">Delete Video</string>
+    <string name="edit_caption">Edit Caption</string>
+    <string name="export_apk_section">App Package (APK)</string>
+    <string name="save_apk_button">Save APK</string>
+    <string name="share_apk_button">Share APK</string>
+    <string name="apk_saved_success">APK saved (%1$s MB)</string>
+    <string name="apk_export_failed">Unable to export APK</string>
+
+    <!-- Wallet -->
+    <string name="points_balance">Points</string>
+    <string name="usd_balance">Balance (USD)</string>
+    <string name="request_withdrawal">Request Withdrawal</string>
+    <string name="min_withdrawal_note">Minimum withdrawal: $%1$.2f</string>
+    <string name="transactions_history">Earnings History</string>
+    <string name="supabase_ledger_title">Supabase Accounting Ledger</string>
+    <string name="supabase_ledger_synced">Synced • %1$d entries • %2$d videos</string>
+    <string name="supabase_ledger_pending_config">Set SUPABASE_URL in AI Studio Secrets &amp; deploy Cloud Functions with SUPABASE_SECRET_KEY</string>
+    <string name="supabase_ledger_checking">Checking accounting sync…</string>
+    <string name="sync_now">Sync</string>
+
+    <!-- Admin -->
+    <string name="admin_overview">Overview</string>
+    <string name="admin_users">Users</string>
+    <string name="admin_reports">Reports</string>
+    <string name="admin_withdrawals">Withdrawals</string>
+    <string name="admin_settings_tab">Config</string>
+    <string name="ban_user">Ban</string>
+    <string name="unban_user">Activate</string>
+    <string name="approve">Approve</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="remove_content">Remove Video</string>
+</resources>

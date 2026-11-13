@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">VYORA</string>
+
+    <!-- Auth -->
+    <string name="auth_tagline">أبدع. انطلق. تألق في كل لقطة.</string>
+    <string name="auth_subtitle">فيديوهات قصيرة فورية، بث مباشر تفاعلي، مراسلة لحظية، ومكافآت لصناع المحتوى.</string>
+    <string name="sign_in_google">تسجيل الدخول بحساب Google</string>
+    <string name="auth_signing_in">جاري تسجيل الدخول…</string>
+    <string name="auth_cancelled">تم إلغاء تسجيل الدخول. اضغط للمحاولة مجدداً.</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_friends">الأصدقاء</string>
+    <string name="nav_create">إضافة</string>
+    <string name="nav_messages">الرسائل</string>
+    <string name="nav_profile">الملف</string>
+
+    <!-- Feed & Discovery -->
+    <string name="tab_following">متابَعة</string>
+    <string name="tab_for_you">لك</string>
+    <string name="tab_live">مباشر</string>
+    <string name="search_hint">ابحث عن فيديو، حساب، أو #هاشتاج…</string>
+    <string name="discover_title">اكتشف والرائج</string>
+    <string name="trending_videos">الأكثر مشاهدة</string>
+    <string name="latest_videos">أحدث الفيديوهات</string>
+    <string name="trending_hashtags">الهاشتاجات الرائجة</string>
+    <string name="empty_feed_title">لا توجد فيديوهات بعد</string>
+    <string name="empty_feed_subtitle">كن أول مبدع! اضغط على (+) لتصوير أو رفع أول فيديو.</string>
+    <string name="follow">متابعة</string>
+    <string name="following_label">تتابعه</string>
+    <string name="requested_label">تم الطلب</string>
+    <string name="views_count">%1$s مشاهدة</string>
+    <string name="comments_title">التعليقات (%1$d)</string>
+    <string name="comment_hint">اكتب تعليقاً…</string>
+    <string name="send">إرسال</string>
+    <string name="share_video">مشاركة الفيديو</string>
+    <string name="report">إبلاغ</string>
+    <string name="block_user">حظر المستخدم</string>
+    <string name="unblock_user">إلغاء الحظر</string>
+
+    <!-- Create / Studio -->
+    <string name="studio_choose_mode">أنشئ محتوى على VYORA</string>
+    <string name="studio_record_video">تصوير فيديو بالكاميرا</string>
+    <string name="studio_pick_gallery">اختيار فيديو من المعرض</string>
+    <string name="studio_go_live">بدء بث مباشر LIVE</string>
+    <string name="studio_caption_hint">أضف وصفاً وهاشتاجات #…</string>
+    <string name="studio_select_sound">اختيار مقطع صوتي</string>
+    <string name="studio_original_sound">صوت أصلي</string>
+    <string name="studio_pick_cover">تحديد صورة غلاف</string>
+    <string name="studio_publish">نشر الفيديو</string>
+    <string name="studio_uploading">جاري الرفع %1$d%%…</string>
+    <string name="studio_duration_15">15 ث</string>
+    <string name="studio_duration_60">60 ث</string>
+    <string name="studio_duration_180">3 د</string>
+    <string name="studio_flip_camera">تبديل الكاميرا</string>
+    <string name="studio_pause_rec">إيقاف مؤقت</string>
+    <string name="studio_resume_rec">استكمال</string>
+    <string name="studio_stop_rec">إنهاء</string>
+    <string name="permission_camera_audio">مطلوب إذن الكاميرا والميكروفون لتصوير الفيديو أو بدء البث المباشر.</string>
+    <string name="grant_permissions">منح الأذونات</string>
+
+    <!-- Friends & Social -->
+    <string name="friends_feed">فيديوهات الأصدقاء</string>
+    <string name="suggestions_title">اقتراحات المتابعة</string>
+    <string name="follow_requests_title">طلبات المتابعة</string>
+    <string name="accept">قبول</string>
+    <string name="reject">رفض</string>
+    <string name="followers_label">متابعون</string>
+    <string name="likes_label">إعجابات</string>
+
+    <!-- Messages -->
+    <string name="messages_title">الرسائل</string>
+    <string name="new_chat">محادثة جديدة</string>
+    <string name="type_message">اكتب رسالتك…</string>
+    <string name="voice_note_hold">رسالة صوتية</string>
+    <string name="recording_voice">جاري تسجيل الصوت… اضغط للإرسال</string>
+    <string name="delete_chat">حذف المحادثة</string>
+    <string name="no_messages_yet">لا توجد محادثات بعد. ابدأ مراسلة أصدقائك الآن!</string>
+
+    <!-- Live -->
+    <string name="live_title_hint">عنوان البث المباشر…</string>
+    <string name="start_live_btn">بدء البث المباشر</string>
+    <string name="end_live_btn">إنهاء البث</string>
+    <string name="live_viewers">%1$d مشاهد</string>
+    <string name="agora_missing_warning">انشر دوال Firebase Cloud Functions واضبط مفاتيح AGORA في Firebase Secret Manager لتفعيل البث المرئي. دردشة البث وإحصائياته فعالة.</string>
+    <string name="no_live_streams">لا توجد جلسات بث مباشر حالياً.</string>
+
+    <!-- Profile, Wallet & Admin -->
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="wallet_earnings">المحفظة والنقاط</string>
+    <string name="admin_dashboard">لوحة تحكم المدير</string>
+    <string name="notifications_title">الإشعارات</string>
+    <string name="mark_all_read">تحديد الكل كمقروء</string>
+    <string name="sounds_library">مكتبة الأصوات</string>
+    <string name="add_sound">إضافة صوت مرخص</string>
+    <string name="settings_title">الإعدادات والخصوصية</string>
+    <string name="private_account">حساب خاص</string>
+    <string name="language_label">اللغة</string>
+    <string name="theme_label">المظهر</string>
+    <string name="theme_dark">ليلي</string>
+    <string name="theme_light">نهاري</string>
+    <string name="theme_system">النظام</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="tab_videos">فيديوهاتي</string>
+    <string name="tab_saved">المحفوظات</string>
+    <string name="tab_liked">الإعجابات</string>
+    <string name="save_changes">حفظ التغييرات</string>
+    <string name="delete_video">حذف الفيديو</string>
+    <string name="edit_caption">تعديل الوصف</string>
+    <string name="export_apk_section">حزمة التطبيق (APK)</string>
+    <string name="save_apk_button">حفظ APK</string>
+    <string name="share_apk_button">مشاركة APK</string>
+    <string name="apk_saved_success">تم حفظ ملف APK (%1$s م.ب)</string>
+    <string name="apk_export_failed">تعذر تصدير ملف APK</string>
+
+    <!-- Wallet -->
+    <string name="points_balance">النقاط</string>
+    <string name="usd_balance">الرصيد (دولار)</string>
+    <string name="request_withdrawal">طلب سحب</string>
+    <string name="min_withdrawal_note">الحد الأدنى للسحب: %1$.2f$</string>
+    <string name="transactions_history">سجل الأرباح</string>
+    <string name="supabase_ledger_title">السجل المحاسبي (Supabase)</string>
+    <string name="supabase_ledger_synced">متزامن • %1$d قيد مالي • %2$d فيديو</string>
+    <string name="supabase_ledger_pending_config">أضف SUPABASE_URL في Secrets وانشر Cloud Functions مع SUPABASE_SECRET_KEY</string>
+    <string name="supabase_ledger_checking">جاري فحص المزامنة المحاسبية…</string>
+    <string name="sync_now">مزامنة</string>
+
+    <!-- Admin -->
+    <string name="admin_overview">الإحصائيات</string>
+    <string name="admin_users">المستخدمون</string>
+    <string name="admin_reports">البلاغات</string>
+    <string name="admin_withdrawals">السحوبات</string>
+    <string name="admin_settings_tab">الإعدادات</string>
+    <string name="ban_user">حظر</string>
+    <string name="unban_user">تفعيل</string>
+    <string name="approve">موافقة</string>
+    <string name="dismiss">تجاهل</string>
+    <string name="remove_content">حذف الفيديو</string>
+</resources>
